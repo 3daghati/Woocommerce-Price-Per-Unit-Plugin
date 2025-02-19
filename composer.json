@@ -1,0 +1,19 @@
+{
+    "name": "logical/unit-price-display",
+    "description": "Professional unit price display for WooCommerce",
+    "type": "wordpress-plugin",
+    "require": {
+        "php": ">=7.4",
+        "composer/installers": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "UnitPriceDisplay\\": "includes/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}

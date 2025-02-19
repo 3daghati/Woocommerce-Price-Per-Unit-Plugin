@@ -1,0 +1,36 @@
+.unit-price-display {
+    display: inline-block;
+    margin-left: 8px;
+}
+
+.unit-badge {
+    background: #2c3338;
+    color: #fff;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-size: 0.85em;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.unit-position-below_price {
+    display: block;
+    margin-left: 0;
+    margin-top: 5px;
+}
+
+.unit-badge:before {
+    content: "•";
+    color: #fff;
+    margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+    .unit-price-display {
+        display: block;
+        margin-left: 0;
+        margin-top: 5px;
+    }
+}
